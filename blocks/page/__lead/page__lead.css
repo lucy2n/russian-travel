@@ -4,6 +4,12 @@
 
 @media screen and (max-width: 1279px) {
     .page__lead {
+        margin: 0 auto 92px;
+    }
+}
+
+@media screen and (max-width: 1068px) {
+    .page__lead {
         margin: 0 48px 92px;
     }
 }
