@@ -1,27 +1,22 @@
-.header__container {
-    max-width: 1184px;
+
+.page__header {
     margin: 28px auto 56px;
-    display: flex;
-    justify-content: space-between;
 }
 
 @media screen and (max-width: 1279px) {
-    .header__container {
+    .page__header {
         margin: 28px 48px 48px;
-        
     }
 }
 
 @media screen and (max-width: 1023px) {
-    .header__container {
+    .page__header {
         margin: 28px 24px 48px;
-        
     }
 }
 
 @media screen and (max-width: 767px) {
-    .header__container {
+    .page__header {
         margin: 16px 16px 48px;
-        
     }
 }
