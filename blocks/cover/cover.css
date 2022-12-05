@@ -1,12 +1,12 @@
 .cover {
     max-width: 1184px;
     min-height: 740px;
-    background: linear-gradient(rgba(42, 44, 47, 0.3), rgba(42, 44, 47, 0.3)), url(../../images/cover-trains.jpg); 
+    background-image: url(../../images/cover-trains.jpg); 
     background-size: cover;
     background-position: 50% 50%;  
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1279px) {
     .cover {
         width: 100%;
         min-height: 62.5vw;
