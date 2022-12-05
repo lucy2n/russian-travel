@@ -9,8 +9,13 @@
         align-items: center;
         z-index: 1;
         background-color: rgba(42, 44, 47, 0.3);
-}      
+}   
 
+.cover__overlay:hover {
+        background-color: rgba(42, 44, 47, 0.8); 
+}
+
+/* Если разположить линзу с помошью ::before, то opacity накладываются, поэтому прибегла к варианту выше
 .cover__overlay:hover::before {
         content: "";
         position: absolute;
@@ -22,7 +27,7 @@
         left: 0;
         z-index: -1;
 }
-
+*/
 
 @media screen and (max-width: 1279px) {
         .cover__overlay {
